@@ -6,17 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login page</title>
     <link rel="stylesheet" href={{ asset('index.css') }}>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 <body>
 
 <div class="card">
     <div class="card-header">
-
+ <img src="{{ asset(img/use_avatar.jpg) }}"alt=""class="avatar">
+ <h1 class="text-center">Login</h1>
     </div>
     <div class="card-body">
+<form action="" method="post">
+    <div class="row"> 
+        <label for="" class="label-text">user name</label>
+    <input type="text" name="user name " id="" class="form-control">
+    </div> 
+    <div class="row"> 
+        <label for="" class="label-text">password</label>
+    <input type="password" name="user name " id="" class="form-control">
+    </div>
+    <div class="row">
+       <a href="" class="btn btn-success">login</a>
+       <a href="" class="btn btn-danger">cancel</a>
 
+    </div>
+</form>
+</div>
     </div>
 </div>
 
